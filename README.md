@@ -101,5 +101,21 @@ The most popular asymmetric encryption technique used today is RSA, named after 
 
 When you connect to a secure website, like your bank, that little padlock icon means that your computer has used public key cryptography to verify the server, key exchange to establish a secret temporary key, and symmetric encryption to protect all the back-and-forth communication from prying eyes.
 
+# Criptography Programming Concept
 
+- Hash
+
+sha256 or Argon2 (better solution)
+
+- Salt
+
+It's a random value added to the password before it is hashed therefore making it much harder to guess
+
+- HMAC Hash-Based Message Authentication Code
+
+It is an hash that also require a password defined by the original creator.
+
+An example is a JSON web Token for authentication on the web.
+
+When I generate a login in a trusted server it generates a token with its trusted key then the client can pass it back so the server can trust him.
 
