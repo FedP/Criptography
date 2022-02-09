@@ -1,8 +1,8 @@
 # Criptography
 
- - The output is fully static and can be hosted on Github or S3
- 
-This is an example
+ - CIPHER: An algorithm that converts plain text into CIPHERTEXT
+ - Encryption <<==>> Decription
+ - Ceaser CIPHER (switch letter by 1)
 
 ## Manifests
 
