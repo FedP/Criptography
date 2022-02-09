@@ -119,3 +119,16 @@ An example is a JSON web Token for authentication on the web.
 
 When I generate a login in a trusted server it generates a token with its trusted key then the client can pass it back so the server can trust him.
 
+- How to share a secret with someone and also allow them to read the original message
+
+- Symmetric Encryption
+
+- Asymmetric Encryption
+
+You use it anytime you to a website https
+
+The browser would automatically find a public key used to encrypt the data sent through the website. The data is then decrypted by the browser.
+
+- Signing (Digital Signature)
+
+Method of validation that secure that a data came from a trusted party.
