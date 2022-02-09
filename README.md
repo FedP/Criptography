@@ -132,3 +132,7 @@ The browser would automatically find a public key used to encrypt the data sent 
 - Signing (Digital Signature)
 
 Method of validation that secure that a data came from a trusted party.
+
+# Criptography and Blockchain
+
+
