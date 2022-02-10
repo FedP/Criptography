@@ -20,6 +20,8 @@ The flow goes both ways so if A gives H then H gives A.
 
 The encryption configuration can be modified so then the message changes with it.
 
+![](image/Enigma.png)
+
 From this point the encryption went from hardware to software.
 
 - First cipher software was "Data Encryption Standard" developed by IBM and NSA in 1977.
