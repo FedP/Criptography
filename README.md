@@ -66,6 +66,8 @@ We can do this with one-way functions – mathematical operations that are very 
 
 - Diffie-Hellman Key Exchange
 
+![](image/Symmetric.png)
+
 Diffie-Hellman key exchange is one method for establishing a shared key. These keys that can be used by both sender and receiver, to encrypt and decrypt messages, are called symmetric keys because the key is the same on both sides.
 
 In Diffie-Hellman, the one-way function is modular exponentiation. This means taking one number, the base, to the power of another number, the exponent, and taking the remainder when dividing by a third number, the modulus.
