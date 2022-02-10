@@ -1,7 +1,17 @@
 # Criptography
 
- - CIPHER: An algorithm that converts plain text into CIPHERTEXT
+Is a method of developing techniques and protocols to prevent a third party form accessing and gaining knowledge of the data from the private messages during a communication process.
+
+From Greek:
+
+Kryptos ==>> Hidden
+
+Graphein ==>> To write
+
+ - Encryption: A process that converts PLAIN text into CIPHERTEXT
  - Encryption <<==>> Decription
+ - Cipher: The mathematical function that is used to convert plaintext to ciphertext
+ - Key: A small amount of information that is required to induce the output of the cryptographic algorithm
  - Ceaser Cipher (switch letter by 1)
 
 The caesae cipher is one example of a larger class of techniques called Substitution Ciphers. 
@@ -140,5 +150,56 @@ The browser would automatically find a public key used to encrypt the data sent 
 Method of validation that secure that a data came from a trusted party.
 
 # Criptography and Blockchain
+
+Informations are stored in the Blockchain in Blocks as Lists.
+
+These lists are linked using cryptography.
+
+Blockchains mainly make use of two types of cryptographic algorithms asymmetric key algorithms and hash functions.
+
+Hash functions are used to provide functionality of a single view of blockchain to every participant and generally blockchains use sha-256 hashing algorithm as their hash function
+
+- Hash functions Benefits to the Blockchain
+
+1) avalanche effect which simply means that a slight change in the data can result in significant different output 
+2) uniqueness that is every input has a unique output
+3) deterministic which means that any input will always have the same output if passed to the same hash function
+4) quickness which means the output can be generated in a very small amount of time
+5) reverse engine ring is not possible that is we cannot generate the input by having the output 
+6) hash functions have a major role in linking the blocks to one another and also to maintain the integrity of the data stored inside each block any alteration in the blocked data can lead to inconsistency and break the blockchain making it invalid this requirement is achieved by property of hash functions called as avalanche effect 
+
+- Asymmetric key
+
+Asymmetric key cryptography is where the private key generally needs to be produced by a random number algorithm and the public key is calculated by executing an irreversible algorithm and that's why asymmetric encryption algorithm has an advantage of having separate public and private keys which can be transferred over unsecured channels easily.
+
+Likely it also has several disadvantages some of which include low processing speed and unsatisfactory encryption strength also it is very much necessary to ensure the security of the asymmetric encryption algorithm during the transmission of data.
+
+On the blockchain one of the major parts of asymmetric key cryptography is digital signatures which provides integrity to the process as they are easily verifiable and cannot be corrupted.
+
+They also hold the quality of non-repudiation making them similar to signatures in the real world.
+
+It is these virtual signatures which ensure that the blockchain is valid and the data is verified and correct.
+
+![](image/Block1.png)
+
+Hashing, Public Private Key Pairs and Digital Signatures together constitute the foundation of blockchain technology.
+
+These cryptographic features make it possible for blocks to get securely linked by other blocks and also ensure the reliability and immutability of the data stored on the blockchain.
+
+- Application ==>> Cryptocurrencies
+
+Cryptocurrencies are one of the major applications of blockchain and they use public private key pairs to maintain the addresses of users on the blockchain. 
+
+For cryptography in blockchain the public key is used as the address of the person.
+
+The public key is visible globally, it is visible to any participant while the private key is the secret key value and is used to access that address data and authorize any of the actions for the address which is generally regarded as transactions in the cryptocurrency language.
+
+Digital signatures are widely used for cryptocurrencies as well they are used to approve the transactions by signing them securely and are also used for multi-signature contracts and digital wallets on the blockchain.
+
+This helps to improve any action from these multi-signature contracts and digital wallets.
+
+
+
+
 
 
