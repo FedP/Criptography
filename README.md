@@ -101,6 +101,8 @@ The most popular asymmetric encryption technique used today is RSA, named after 
 
 When you connect to a secure website, like your bank, that little padlock icon means that your computer has used public key cryptography to verify the server, key exchange to establish a secret temporary key, and symmetric encryption to protect all the back-and-forth communication from prying eyes.
 
+![](image/Asymmetric Encryption)
+
 # Criptography Programming Concept
 
 - Hash
